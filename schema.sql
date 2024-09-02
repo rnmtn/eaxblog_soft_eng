@@ -1,6 +1,5 @@
--- Create Users Table
 CREATE TABLE Users (
-    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    UserID INT PRIMARY KEY,
     Username VARCHAR(50),
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
@@ -9,9 +8,8 @@ CREATE TABLE Users (
     DateAdded TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create Friends Table
 CREATE TABLE Friends (
-    FriendID INT AUTO_INCREMENT PRIMARY KEY,
+    FriendID INT PRIMARY KEY,
     FriendWhoAdded INT,
     FriendBeingAdded INT,
     IsAccepted BOOLEAN,
@@ -19,18 +17,16 @@ CREATE TABLE Friends (
 );
 
 
--- Create Groups Table
 CREATE TABLE Groups (
-    GroupID INT AUTO_INCREMENT PRIMARY KEY,
+    GroupID INT PRIMARY KEY,
     GroupName VARCHAR(100),
     CreatedBy INT,
     DateAdded TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 
--- Create Posts Table
 CREATE TABLE Posts (
-    PostID INT AUTO_INCREMENT PRIMARY KEY,
+    PostID INT PRIMARY KEY,
     PostDescription VARCHAR(255),
     PostedBy INT,
     IsPublic BOOLEAN,
@@ -39,9 +35,8 @@ CREATE TABLE Posts (
     DatePosted TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create Group Membership Requests Table
 CREATE TABLE GroupMembershipRequests (
-    GroupMemberShipRequestsID INT AUTO_INCREMENT PRIMARY KEY,
+    GroupMemberShipRequestsID INT PRIMARY KEY,
     GroupID INT,
     GroupMemberUserID INT,
     IsGroupMemberShipAccepted BOOLEAN,
