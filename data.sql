@@ -12,32 +12,42 @@ INSERT INTO Users (Username, FirstName, LastName, DateofBirth, Password) VALUES
 ;
 
 INSERT INTO Groups ( GroupID, GroupName, CreatedBy ) VALUES
-  ('1234', 'EAXC MAIN', 'Reighold Yvens'),
-  ('5678', 'EAXC STUDENTS WARD', 'Sayres Cisar'),
-  ('9123', 'EAXC FREEDOM WALL', 'Monty Randals')
+  ('1', 'EAXC MAIN', 'Reighold Yvens'),
+  ('2', 'EAXC STUDENTS WARD', 'Sayres Cisar'),
+  ('3', 'EAXC FREEDOM WALL', 'Monty Randals')
 ;
 
 INSERT INTO GroupMembershipRequests ( GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted ) VALUES
-  ('2-135-4503' , '1234', '2', 'YES'),
-  ('33-189-3694', '9123', '3', 'YES'),
-  ('09-047-6569', '5678', '5', 'NO'),
-  ('99-227-9762', '9123', '1', 'NO'),
-  ('78-064-2160', '1234', '4', 'YES'),
-  ('1-798-6789', '5678', '2', 'YES')
+  ('2-135-4503' , '1', '2', 'YES'),
+  ('33-189-3694', '3', '3', 'YES'),
+  ('09-047-6569', '2', '5', 'NO'),
+  ('99-227-9762', '3', '1', 'NO'),
+  ('78-064-2160', '1', '4', 'YES'),
+  ('1-798-6789', '2', '2', 'YES')
 ;
 
-INSERT INTO Friends ( FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted ) VALUES
-  ('4455569944', 'Maryanna Marchington', 'Amber Grew', 'YES'),
-  ('9741023456', 'Vannie Ivantyev', 'Mellisent Warsop', 'YES'),
-  ('6777202382', 'Preston Pinson', 'Lilas Paddle', 'NO'),
-  ('4763860127', 'Tiffanie Ribou', 'Elwin Rockwill', 'YES'),
-  ('0136994571', 'Inness Dawks', 'Field Girardez', 'NO')
-;
+INSERT INTO Friends ( FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted ) VALUES 
+  ('1', 'Goldarina Eldered', 'Osborne Quemby', 'YES'),
+  ('2', 'Kennith Barrowcliffe', 'Katine Halladey', 'NO'),
+  ('3', 'Grantley Garnsworth', 'Goldarina Eldered', 'YES'),
+  ('4', 'Katine Halladey', 'Cass Braunes', 'NO'),
+  ('5', 'Goldarina Eldered', 'Dulcy Wimes', 'NO'),
+  ('6', 'Marsha Mouget', 'Katine Halladey', 'NO'),
+  ('7', 'Reginald Cristofvao', 'Goldarina Eldered', 'YES'),
+  ('8', 'Katine Halladey', 'Gabbey Inkle', 'YES'),
+  ('9', 'Goldarina Eldered', 'Laureen Ballingal', 'YES'),
+  ('10', 'Caroline Dart', 'Katine Halladey', 'YES'),
+  ('11', 'Giulietta Mowson', 'Goldarina Elderede', 'YES'),
+  ('12', 'Katine Halladey', 'Bron Rengger', 'YES'),
+  ('13', 'Goldarina Eldered', 'Godwin Lowdeane', 'NO'),
+  ('14', 'Elsinore Denizet', 'Goldarina Eldered', 'NO'),
+  ('15', 'Dillie Liddard', 'Katine Halladey', 'NO')
+  ;
 
 INSERT INTO Posts ( PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID ) VALUES
-  ('6357864668', 'Hello my felow students!', '1', 'YES', 'NO', '5678'),
-  ('5364228029', 'I would like to ask about my account', '2', 'YES', 'NO', '1234'),
-  ('1704246253',  'I saw a wallet inside the canteen, if you are looking for it, go to the loost and found office', '7', 'Yes', 'NO', '9123'),
-  ('2212009909', 'Mrs. Velasquez is too hard on her student', '10', 'NO', 'YES', '9123'),
-  ('8136258767', 'I am a new student here, I am looking for a friend!', '5', 'YES', 'NO', '5678'),
-  ('9638527414', 'I feel so stressed right now', '4', 'YES', 'NO', '9123');
+  ('6357864668', 'Hello my felow students!', '1', 'YES', 'NO', '2'),
+  ('5364228029', 'I would like to ask about my account', '2', 'YES', 'NO', '1'),
+  ('1704246253',  'I saw a wallet inside the canteen, if you are looking for it, go to the loost and found office', '2', 'Yes', 'NO', '1'),
+  ('2212009909', 'Mrs. Velasquez is too hard on her student', '10', 'NO', 'YES', '2'),
+  ('8136258767', 'I am a new student here, I am looking for a friend!', '5', 'YES', 'NO', '3'),
+  ('9638527414', 'I feel so stressed right now', '4', 'YES', 'NO', '3');
