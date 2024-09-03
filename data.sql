@@ -38,4 +38,5 @@ INSERT INTO Posts ( PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriend
   ('5364228029', 'I would like to ask about my account', '2', 'YES', 'NO', '1234'),
   ('1704246253',  'I saw a wallet inside the canteen, if you are looking for it, go to the loost and found office', '7', 'Yes', 'NO', '9123'),
   ('2212009909', 'Mrs. Velasquez is too hard on her student', '10', 'NO', 'YES', '9123'),
-  ('8136258767', 'I am a new student here, I am looking for a friend!', '5', 'YES', 'NO', '5678');
+  ('8136258767', 'I am a new student here, I am looking for a friend!', '5', 'YES', 'NO', '5678'),
+  ('9638527414', 'I feel so stressed right now', '4', 'YES', 'NO', '9123');
