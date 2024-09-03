@@ -18,11 +18,12 @@ INSERT INTO Groups ( GroupID, GroupName, CreatedBy ) VALUES
 ;
 
 INSERT INTO GroupMembershipRequests ( GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted ) VALUES
-  ('2-135-4503' , '1234', '9310170425', 'YES'),
-  ('33-189-3694', '9123', '5383356002', 'YES'),
-  ('09-047-6569', '5678', '4773431695', 'NO'),
-  ('99-227-9762', '9123', '5280130729', 'NO'),
-  ('78-064-2160', '1234', '1221969110', 'YES')
+  ('2-135-4503' , '1234', '2', 'YES'),
+  ('33-189-3694', '9123', '3', 'YES'),
+  ('09-047-6569', '5678', '5', 'NO'),
+  ('99-227-9762', '9123', '1', 'NO'),
+  ('78-064-2160', '1234', '4', 'YES'),
+  ('1-798-6789', '5678', '2', 'YES')
 ;
 
 INSERT INTO Friends ( FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted ) VALUES
