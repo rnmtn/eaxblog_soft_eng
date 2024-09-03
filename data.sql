@@ -1,14 +1,14 @@
 INSERT INTO Users (Username, FirstName, LastName, DateofBirth, Password) VALUES
-  ('khalladeyc', 'Katine', 'Halladey', '02/02/1990', 'iF8=sx&B"&6DqPp'),
-  ('gelderedd', 'Goldarina', 'Eldered', '08/10/1999', 'zP9+7j(xsd\E'),
-  ('ksloame', 'Kerwin', 'Sloam', '11/03/2001', 'aT2FHy9dX+\O'),
-  ('apackef', 'Arda', 'Packe', '09/28/1997', 'yZ9TH8|GWB6}'),
-  ('sgumbrellg', 'Stanwood', 'Gumbrell', '02/23/1993', 'vZ4)!Y7Vbl3'),
-  ('ggoatmanq', 'Gardy', 'Goatman', '12/22/1995', 'bR7MbfVfJk$'),
-  ('adisneyr', 'Art', 'Disney', '07/29/1994', 'sW9+qb$xY'),
-  ('eikins', 'Emilia', 'Ikin', '09/01/2001', 'sP8/*M}N'),
-  ('vlist', 'Vivianna', 'Lis', '09/10/1995', 'jM1mnhv}PTY#z`$D'),
-  ('mblackledge4', 'Margo', 'Blackledge', '02/08/1994', 'zD3u6ZTX0_')
+  ('khalladeyc', 'Katine', 'Halladey', '02/02/2006', 'iF8=sx&B"&6DqPp'),
+  ('gelderedd', 'Goldarina', 'Eldered', '08/10/2002', 'zP9+7j(xsd\E'),
+  ('ksloame', 'Kerwin', 'Sloam', '11/03/1998', 'aT2FHy9dX+\O'),
+  ('apackef', 'Arda', 'Packe', '09/28/1999', 'yZ9TH8|GWB6}'),
+  ('sgumbrellg', 'Stanwood', 'Gumbrell', '02/23/2004', 'vZ4)!Y7Vbl3'),
+  ('ggoatmanq', 'Gardy', 'Goatman', '12/22/2000', 'bR7MbfVfJk$'),
+  ('adisneyr', 'Art', 'Disney', '07/29/1995', 'sW9+qb$xY'),
+  ('eikins', 'Emilia', 'Ikin', '09/01/2002', 'sP8/*M}N'),
+  ('vlist', 'Vivianna', 'Lis', '09/10/2000', 'jM1mnhv}PTY#z`$D'),
+  ('mblackledge4', 'Margo', 'Blackledge', '02/08/2005', 'zD3u6ZTX0_')
 ;
 
 INSERT INTO Groups ( GroupID, GroupName, CreatedBy ) VALUES
